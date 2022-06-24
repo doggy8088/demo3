@@ -57,8 +57,8 @@ echo Handling Basic Web Site deployment.
 
 pushd .
 cd /d "%DEPLOYMENT_SOURCE%"
-npm install
-npm run build -- --output-path "%DEPLOYMENT_SOURCE%\dist\demo3"
+call npm install
+call npm run build -- --output-path "%DEPLOYMENT_SOURCE%\dist\demo3"
 popd
 
 :: 1. KuduSync
