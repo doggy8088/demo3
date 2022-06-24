@@ -89,7 +89,7 @@ goto :EOF
 echo Handling node.js deployment.
 
 :: 2. Select node version
-call :SelectNodeVersion
+@REM call :SelectNodeVersion
 
 :: 1. KuduSync
 IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
