@@ -15,6 +15,9 @@ IF %ERRORLEVEL% NEQ 0 (
   goto error
 )
 
+echo Node.js Version
+node -v
+
 :: Setup
 :: -----
 
